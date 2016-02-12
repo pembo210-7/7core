@@ -6,20 +6,20 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('FBC0B6DB'), //todo
-  addressVersion: 0x07, // address prefix 7
+  magic: 0x687af01e, // 0x68 0x7a 0xf0 0x1e 
+  addressVersion: 0x0f, // address prefix 7
   privKeyVersion: 0x36, //private key prefix
   P2SHVersion: 5, // multisig prefix
   hkeyPublicVersion: 0x0488c42e,
   hkeyPrivateVersion: 0x0488e1f4,
   genesisBlock: {
-    hash: hex('919ce8917d622ee9bc3d7509c67649a9ece9d335567ebe53626f8ed3daebbf0b'),
-    merkle_root: hex('76728498264a7b317e0ee404779ce0c479effa0cb962e169abbcadd51287dfbc'),
-    height: 1,
-    nonce: 136192,
-    version: 1,
+    hash: hex('efd9c88dd860aece5888265af5db624afc82e849469777c44cbfae808dc1221a'),
+    merkle_root: hex('6cfb8e718d27dc516fbaddf4fc532e39643ff0317556d322f85191e5fab9a3c2'),
+    height: 0,
+    nonce: 1734121,
+    version: 0,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1454807215,
+    timestamp: 1454799127,
     bits: '1e0ffff0',
   },
   dnsSeeds: [
