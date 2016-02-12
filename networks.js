@@ -6,10 +6,10 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('FBC0B6DB'),
-  addressVersion: 0x30,
-  privKeyVersion: 0xb0,
-  P2SHVersion: 5,
+  magic: hex('FBC0B6DB'), //todo
+  addressVersion: 0x07, // address prefix 7
+  privKeyVersion: 0x36, //private key prefix
+  P2SHVersion: 5, // multisig prefix
   hkeyPublicVersion: 0x0488c42e,
   hkeyPrivateVersion: 0x0488e1f4,
   genesisBlock: {
@@ -20,7 +20,7 @@ exports.livenet = {
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
     timestamp: 1454807215,
-    bits: 504365040,
+    bits: '1e0ffff0',
   },
   dnsSeeds: [
     '52.34.40.255',
