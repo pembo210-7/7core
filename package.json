@@ -3,13 +3,13 @@
   "description": "Number7 Library",
   "version": "0.1.39",
   "author": {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
+    "name": "number7",
+    "email": "team@number7.co"
   },
   "contributors": [
     {
-      "name": "FlappyDEV",
-      "email": "dev@goflap.io"
+    "name": "number7",
+    "email": "team@number7.co"
     },
     {
     "name": "pembo210",
@@ -27,7 +27,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pembo210/7Core.git"
+    "url": "https://github.com/pembo210-7/7core.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
